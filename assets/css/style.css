@@ -178,26 +178,12 @@ a { color: inherit; text-decoration: none; }
   gap: 12px;
 }
 
-.avatar-placeholder {
+.hero-photo-img {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  background: linear-gradient(145deg, var(--accent), var(--accent-soft));
-  color: var(--bg);
-  font-family: var(--font-heading);
-  font-size: 3.2rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  object-fit: cover;
   box-shadow: 0 20px 40px -16px rgba(46, 32, 19, 0.4);
-}
-
-.photo-note {
-  font-size: .8rem;
-  color: var(--text-soft);
-  opacity: .7;
-  margin: 0;
 }
 
 /* Sobre */
